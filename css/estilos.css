@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: sans-serif, verdana, arial;
+    font-family: 'Montserrat', sans-serif;
 }
 /*Panel lateral*/
 .lateral{
@@ -48,12 +48,39 @@
 .hablidades{
     padding: 0;
 }
-
 .habilidad{
-    background-color: #0f6a62;
-    color: #ffffff;
+        color: #ffffff;
     display: inline-block;
     font-size: 12px;
     padding: 0.5em;
     text-transform: uppercase;
+}
+
+ul.habilidades1>li{
+    background-color: #0f6a62;
+}
+
+/*Proyectos*/
+.proyectos{
+    margin-left: 350px;
+    padding: 1em;
+}
+.proyecto{
+    display: table-cell;
+    padding: 1em;
+    width: 50%;
+}
+.proyecto__imagen{
+    width: 100%;
+    border: 1px solid #0f6a62;
+}
+.proyecto__titulo{
+    color: #29597c;
+    font-size: 18px;
+}
+ul.habilidades>li{
+    background-color: #29597c;
+}
+.proyecto__descripcion{
+    color: #797d7f;
 }
